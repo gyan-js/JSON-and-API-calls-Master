@@ -23,7 +23,7 @@ function setup(){
 
 function draw(){
      // add condition to check if any background image is there to add
-    background(backgroundImg);
+    background(0);
 
     Engine.update(engine);
     // write code to display time in correct format here
